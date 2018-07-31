@@ -7,7 +7,7 @@ This fork uses a preprocessing step to convert the desired compiled sketch
 into a compact C structure thus allowing the programmer to handle much
 larger sketches than the original Adafruit version.
 
-The Adafruit version of this project [included as a string](https://github.com/adafruit/Standalone-Arduino-AVR-ISP-programmer/blob/master/images.cpp) the compiled
+The Adafruit version of this project [included as a string](https://github.com/adafruit/Standalone-Arduino-AVR-ISP-programmer/blob/master/Standalone-Arduino-AVR-ISP-programmer/images.cpp) the compiled
 sketch to be programmed into target devices. Each byte of the sketch was
 represented as two characters (hex digits), thus making the string at least
 twice as big as the number of bytes in the compiled sketch it represented.
